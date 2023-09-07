@@ -3,7 +3,7 @@ using HarmonyLib;
 
 namespace VPetHarmony
 {
-    public class ModMain : MainPlugin
+    public partial class ModMain : MainPlugin
     {
         public override string PluginName => "YukkuriC.InjectTemplate";
         IMainWindow mw;
@@ -12,12 +12,17 @@ namespace VPetHarmony
         public ModMain(IMainWindow mainwin) : base(mainwin)
         {
             mw = mainwin;
-            //Harmony.DEBUG = true;
-            patcher = new Harmony(PluginName);
-            patcher.PatchAll();
+            patcher = Injector.Init(PluginName);
+        }
+    }
 
-            // must call or patch will be ignored, why?
-            Injector.RecordRef();
+    public static partial class Injector
+    {
+        public static Harmony Init(string name)
+        {
+            var patcher = new Harmony(name);
+            patcher.PatchAll();
+            return patcher;
         }
     }
 }

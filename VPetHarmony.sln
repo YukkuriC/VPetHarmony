@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InjectTemplate", "InjectTemplate\InjectTemplate.csproj", "{FB92D494-65FE-4D0F-86CC-2B744A2DC144}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicFood", "MagicFood\MagicFood.csproj", "{75B88AC9-61B2-4F55-90F9-FA02B7E41846}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FB92D494-65FE-4D0F-86CC-2B744A2DC144}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB92D494-65FE-4D0F-86CC-2B744A2DC144}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB92D494-65FE-4D0F-86CC-2B744A2DC144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B88AC9-61B2-4F55-90F9-FA02B7E41846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B88AC9-61B2-4F55-90F9-FA02B7E41846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B88AC9-61B2-4F55-90F9-FA02B7E41846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B88AC9-61B2-4F55-90F9-FA02B7E41846}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

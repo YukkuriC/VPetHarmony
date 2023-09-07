@@ -6,3 +6,4 @@
 项目名|功能
 -|-
 InjectTemplate|HelloWorld项目，用于注入翻译功能把所有文本便乘`HelloWorld`
+MagicFood|一些有特殊功能的食物

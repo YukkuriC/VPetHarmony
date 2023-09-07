@@ -3,4 +3,4 @@ obj
 .vs
 CommonLibs/*.dll
 CommonLibs/*.exe
-*/theMod/plugin/*
+*/*/plugin/

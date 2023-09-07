@@ -6,13 +6,11 @@ namespace VPetHarmony
     public class ModMain : MainPlugin
     {
         public override string PluginName => "YukkuriC.InjectTemplate";
-        IMainWindow mw;
         Harmony patcher;
         public static ModMain instance { get; private set; }
 
         public ModMain(IMainWindow mainwin) : base(mainwin)
         {
-            mw = mainwin;
             patcher = Injector.Init(PluginName);
             instance = this;
         }

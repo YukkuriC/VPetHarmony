@@ -1,4 +1,5 @@
 ﻿using HarmonyLib;
+using VPet_Simulator.Windows;
 using VPet_Simulator.Windows.Interface;
 using VPet_Simulator.Core;
 using LinePutScript.Localization.WPF;

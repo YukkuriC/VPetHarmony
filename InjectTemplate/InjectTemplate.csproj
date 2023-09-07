@@ -65,6 +65,9 @@
       <HintPath>..\CommonLibs\VPet-Simulator.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="VPet-Simulator.Windows">
+      <HintPath>..\CommonLibs\VPet-Simulator.Windows.exe</HintPath>
+    </Reference>
     <Reference Include="VPet-Simulator.Windows.Interface">
       <HintPath>..\CommonLibs\VPet-Simulator.Windows.Interface.dll</HintPath>
       <Private>False</Private>
